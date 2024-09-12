@@ -47,5 +47,6 @@ def create_password():
 
 
 # Create and display the new password
-new_password = create_password()
-print(f"Your generated password is: {new_password}")
+if __name__ == "__main__":
+    new_password = create_password()
+    print(new_password)
